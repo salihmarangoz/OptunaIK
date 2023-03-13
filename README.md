@@ -5,11 +5,9 @@ Can I solve inverse kinematics using Optuna? Well... There are many good solutio
 
 ## Dependencies
 
-- [ROS Melodic](http://wiki.ros.org/melodic/Installation)
-
+- **[ROS Melodic](http://wiki.ros.org/melodic/Installation)**
 - **[xarm_ros](https://github.com/xArm-Developer/xarm_ros)**
 - `pip install optuna`
-- `moveit`
 
 ## Run
 
