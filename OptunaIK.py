@@ -109,10 +109,10 @@ class OptunaInverseKinematics(object):
     # sample joint values
     new_joint_values = []
     for i, j in enumerate(self.previous_state.joint_state.name):
-      min_val = self.previous_state.joint_state.position[i] - 0.01
+      min_val = self.previous_state.joint_state.position[i] - 0.15
       if joint_min_position[i] > min_val:
         min_val = joint_min_position[i]
-      max_val = self.previous_state.joint_state.position[i] + 0.01
+      max_val = self.previous_state.joint_state.position[i] + 0.15
       if joint_max_position[i] < max_val:
         max_val = joint_max_position[i]
 
