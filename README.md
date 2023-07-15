@@ -1,3 +1,5 @@
+# Moved to https://github.com/salihmarangoz/PythonExperiments
+
 # OptunaIK
 Can I solve inverse kinematics using Optuna? Well... There are many good solutions to this problem. It is possible to solve using Optuna. It is not a good solution. But a solution...
 
